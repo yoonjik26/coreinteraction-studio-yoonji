@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+ 	<link rel="stylesheet" href="main.css">
+
+<body>
+	<div class="canvas">
+	<div class="carnegie">CARNEGIE HALL<span>  presents...</span></div>
+	<div class="piano">
+    <div class="key one">
+      <div class="black"></div>
+      <div class="white"></div>
+    </div>
+    <div class="key two">
+      <div class="black"></div>
+      <div class="white"></div>
+    </div>
+    <div class="key three">
+      <div class="white"></div>
+    </div>
+     <div class="key four">
+      <div class="black"></div>
+      <div class="white"></div>
+    </div>
+    <div class="key five">
+      <div class="black"></div>
+      <div class="white"></div>
+    </div>
+    <div class="key six">
+      <div class="black"></div>
+      <div class="white"></div>
+    </div>
+    <div class="key seven">
+      <div class="white"></div>
+    </div>
+     <div class="key eight">
+      <div class="white"></div>
+    </div>
+	</div>
+
+  <div class="performance">Piano Performance of</div>
+  <div class="name">Evgeny Kissin</div>
+
+  <p1>Wednesday<br>February 22, 2016<br>8PM</br><br>Stern Auditorium<br>Perelman Stage</br></p1>
+  <p2>Evgeny Kissin is always exciting, but never more so than when he performs music by composers with whom he is most closely associated. Kissin returns to Carnegie Hall with works by his repertoire staples-Chopin and Liszt-as well as sonatas by Beethoven and Prokofiev.</p2>
+  <p3>The nocturne form was conceived by Irish composer John Field, but Chopin reinvented it with an inspired infusion of song-like melodies. While based on a traditional Polish dance, Chopin's mazurkas are dazzlingly original showpieces that offer striking harmonic invention and breathless flights of technical brilliance.</p3>
+
+  <div class="program">Program</div>
+  <div class="program-song song">BEETHOVEN Piano Sonata No. 21 in C Major, Op. 53, "Waldstein"</div>
+  <div class="program-song song">PROKOFIEV Piano Sonata No. 4 in C Minor</div>
+  <div class="program-song song">CHOPIN Nocturne in B-flat Minor, Op. 9, No. 1</div>
+  <div class="program-song song">CHOPIN Nocturne in B Major, Op. 9, No. 3</div>
+  <div class="program-song song">CHOPIN Nocturne in C Minor, Op. 48, No. 1</div>
+  <div class="program-song song">CHOPIN Mazurka in F-sharp Minor, Op. 6, No. 1</div>
+  <div class="program-song song">CHOPIN Mazurka in C-sharp Minor, Op. 6, No. 2</div>
+
+  <div class="encores">Encores</div>
+  <div class="encore-song song">CHOPIN Waltz in B Minor, Op. 69, No. 2</div>
+  <div class="encore-song song">LISZT Etude No. 5 in E Major, "La Chasse" (after Niccolo Paganini, Caprice No. 9 in E Major)</div>
+  <div class="encore-song song">PROKOFIEV March from The Love for Three Oranges</div>
+
+  <div class="chopin">FREDERIC CHOPIN  Selected Nocturnes and Mazurkas</div>
+  <div class="chopin-introduction">Chopin revolutionized piano writing in a large body of nocturnes, mazurkas, waltzes, and other solo pieces that imbued the brilliance of the salon style with unprecedented poetic depth. The nine pieces on the program illustrate the increasing complexity of Chopin's music as he expanded his stylistic horizons in the 1830s.</div>
+
+  <div class="beethoven">LUDWIG VAN BEETHOVEN  Piano Sonata No. 21 in C Major, Op. 53, "Waldstein"</div>
+  <div class="beethoven-introduction">The "Waldstein" Sonata, named for one of Beethoven's noble patrons, followed hard on the heels of the "Eroica" Symphony, and both works exemplify the boldly heroic style of the composer's middle period. A distinctive feature of the C-Major Sonata is its slow movement, which Beethoven substituted for its original Andante.</div>
+
+  <div class="gallery">Gallery</div>
+  <div class="image">
+    <img src="images/kissin.jpg" alt="kissin" width="160" height="180">
+    <img src="images/kissin-two.jpg" alt="kissin" width="160" height="180">
+    <img src="images/kissin-three.jpg" alt="kissin" width="160" height="180">
+    <img src="images/kissin-four.jpg" alt="kissin" width="160" height="180">
+  </div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script>
+
+if ($(window).scrollTop() > 60) {
+    $('.banner h2').hide();
+    $('.banner .info').show();
+} else {
+    $('.banner h2').show();
+    $('.banner .info').hide();                               
+}
+    $(".one").click(function(){
+        $(".performance").toggle();
+        $(".name").toggle();
+    });
+    $(".two").click(function(){
+        $("p1").toggle();
+    });
+    $(".three").click(function(){
+        $("p3").toggle();
+        $("p2").toggle();
+    });
+    $(".four").click(function(){
+        $(".program").toggle();
+        $(".program-song").toggle();
+    });
+    $(".five").click(function(){
+        $(".encores").toggle();
+        $(".encore-song").toggle();
+    });
+    $(".six").click(function(){
+        $(".chopin").toggle();
+        $(".chopin-introduction").toggle();
+    });
+    $(".seven").click(function(){
+        $(".beethoven").toggle();
+        $(".beethoven-introduction").toggle();
+    });
+    $(".eight").click(function(){
+        $(".gallery").toggle();
+        $(".image").toggle();
+    });
+
+</script>
+
+</html>

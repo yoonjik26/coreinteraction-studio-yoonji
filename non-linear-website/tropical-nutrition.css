@@ -1,0 +1,153 @@
+.canvas {
+  position: relative;
+  left: 50%;
+  margin-left: -350px;
+  width: 700px;
+  background: white;
+  text-align: center;
+  font-family: "Avenir";
+}
+
+.cal {
+  font-size: 50px;
+  animation-name: blink;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+}
+
+p {
+  position: relative;
+  display: inline;
+  font-size: 50px;
+  z-index: 2;
+  opacity: 0;
+}
+
+p:hover {
+  color: #ffcc00;
+  opacity: 1;
+}
+
+.fat-calories .fat-fact {
+  visibility: hidden;
+  background-color: white;
+  border: 2px solid;
+  border-radius: 5px;
+  position: absolute;
+  width: 150px;
+  padding: 10px;
+}
+
+.fat-calories:hover .fat-fact {
+  font-size: 20px;
+  left: -200px;
+  position: absolute;
+  color: #ffcc00;
+  visibility: visible;
+}
+
+.total-fat .total-fat-fact {
+  visibility: hidden;
+  background-color: white;
+  border: 2px solid;
+  border-radius: 5px;
+  position: absolute;
+  width: 150px;
+  padding: 10px;
+}
+
+.total-fat:hover .total-fat-fact {
+  font-size: 20px;
+  left: 220px;
+  top: 0;
+  position: absolute;
+  color: #ffcc00;
+  visibility: visible;
+}
+
+.cholesterol .cholesterol-fact {
+  visibility: hidden;
+  background-color: white;
+  border: 2px solid;
+  border-radius: 5px;
+  position: absolute;
+  width: 150px;
+  padding: 10px;
+}
+
+.cholesterol:hover .cholesterol-fact {
+  font-size: 20px;
+  top: -20px;
+  left: 450px;
+  color: #ffcc00;
+  visibility: visible;
+}
+
+.sodium .sodium-fact {
+  visibility: hidden;
+  background-color: white;
+  border: 2px solid;
+  border-radius: 5px;
+  position: absolute;
+  width: 150px;
+  padding: 10px;
+}
+
+.sodium:hover .sodium-fact {
+  font-size: 20px;
+  left: -260px;
+  color: #ffcc00;
+  visibility: visible;
+}
+
+.sugar .sugar-fact {
+  visibility: hidden;
+  background-color: white;
+  border: 2px solid;
+  border-radius: 5px;
+  position: absolute;
+  width: 250px;
+  padding: 10px;
+}
+
+.sugar:hover .sugar-fact {
+  font-size: 20px;
+  left: 190px;
+  top: 80px;
+  color: #ffcc00;
+  visibility: visible;
+}
+
+.number {
+  font-weight: bold;
+  position: absolute;
+  font-size: 400px;
+  color: #ffcc00;
+  z-index: 1;
+  animation-name: blink;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink{
+  0%   {color: #ffcc00;}
+  25%  {color: #ffdb4d;}
+  50%  {color: #fff0b3;}
+  100% {color: #fffae6;}
+}
+
+.button {
+  display: inline-block;
+  margin-top: 140px;
+  background: #ff3399;
+  border-radius: 10px;
+  color: white;
+  font-size: 30px;
+  padding: 15px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #ff80bf;
+}

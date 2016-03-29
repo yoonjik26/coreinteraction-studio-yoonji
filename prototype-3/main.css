@@ -1,0 +1,266 @@
+.canvas {
+	position: relative;
+	height: 3000px;
+	width: 800px;
+	left: 50%;
+	font-family: 'Playfair Display', serif;
+	margin-left: -400px;
+	margin-top: 400px;
+}
+
+.upper {
+	position: fixed;
+	top: 0%;
+	height: 100px;
+	width: 100%;
+	background-color: white 0;
+}
+
+.bottom {
+	position: fixed;
+	top: 70%;
+	height: 300px;
+	width: 100%;
+	background-color: white 0;
+
+}
+
+.class-one {
+	animation: slideDown 2s;
+	animation-timing-function: ease-in-out;	
+	visibility: visible !important;
+}
+
+@keyframes slideDown {
+	from {
+	transform: translateY(-100%);
+	opacity: 0;
+	}		
+	to {
+	transform: translateY(0%);
+  	opacity: 1;
+	}
+}
+
+.class-two {
+	animation: slideRight 1s;
+	animation-timing-function: ease-in-out;	
+	visibility: visible !important;
+}
+
+@keyframes slideRight {
+	from {
+	transform: translateX(-150px);
+	opacity: 0;
+	}		
+	to {
+	transform: translateX(0px);
+  	opacity: 1;
+	}
+}
+
+.class-three {
+	animation: slideLeft 1s;
+	animation-timing-function: ease-in-out;	
+	visibility: visible !important;
+}
+
+@keyframes slideLeft {
+	from {
+	transform: translateX(400px);
+	opacity: 0;
+	}		
+	to {
+	transform: translateX(300px);
+  	opacity: 1;
+	}
+}
+
+.class-four {
+	animation: showUp 1s;
+	animation-timing-function: ease-in-out;	
+	visibility: visible !important;
+}
+
+@keyframes showUp {
+	from {
+	opacity: 0;
+	}		
+	to {
+  	opacity: 0.3;
+	}
+}
+
+.carnegie {
+	margin-top: 150px;
+	visibility: hidden;
+	font-size: 30px;
+	animation-fill-mode: forwards;
+}
+
+.piano {
+	margin-top: 50px;
+	visibility: hidden;
+	font-size: 50px;
+	float: right;
+	animation-fill-mode: forwards;
+}
+
+.name {
+	font-weight: bolder;
+	margin-top: 30px;
+	visibility: hidden;
+	font-size: 100px;
+	font-style: oblique;
+	animation-fill-mode: forwards;
+}
+
+.date {
+	margin-top: 50px;
+	visibility: hidden;
+	font-size: 20px;
+	animation-fill-mode: forwards;
+}
+
+.place {
+    visibility: hidden;
+	font-size: 20px;
+	animation-fill-mode: forwards;
+}
+
+.kissin-one {
+	position: absolute;
+    visibility: hidden;
+    opacity: 0.4;
+	animation-fill-mode: forwards;
+}
+
+.kissin-two {
+	position: absolute;
+    visibility: hidden;
+    opacity: 0.4;
+	animation-fill-mode: forwards;
+}
+
+.kissin-three {
+	position: absolute;
+    visibility: hidden;
+    margin-left: -100px;
+	animation-fill-mode: forwards;
+}
+
+.kissin-four {
+	position: absolute;
+    visibility: hidden;
+    margin-left: 400px;
+	animation-fill-mode: forwards;
+}
+
+.album-one {
+	position: absolute;
+    visibility: hidden;
+    opacity: 0.4;
+    float: left;
+	animation-fill-mode: forwards;
+}
+
+.album-two {
+	position: absolute;
+    visibility: hidden;
+    margin-top: -30px;
+    margin-left: 150px;
+    opacity: 0.4;
+	animation-fill-mode: forwards;
+}
+
+.album-three {
+	position: absolute;
+    visibility: hidden;
+    margin-top: -50px;
+    margin-left: 400px;
+    opacity: 0.4;
+    float: right;
+	animation-fill-mode: forwards;
+}
+
+.first-description {
+	margin-top: 100px;
+    visibility: hidden;
+	font-size: 30px;
+	width: 600px;
+	animation-fill-mode: forwards;
+}
+
+.second-description {
+	margin-top: 20px;
+    visibility: hidden;
+	font-size: 30px;
+	width: 600px;
+	animation-fill-mode: forwards;
+}
+
+.third-description {
+	margin-top: 20px;
+    visibility: hidden;
+	font-size: 30px;
+	width: 600px;
+	animation-fill-mode: forwards;
+}
+
+.program {
+	margin-top: 100px;
+	margin-bottom: 20px;
+    visibility: hidden;
+    font-style: oblique;
+	font-size: 50px;
+	width: 600px;
+	animation-fill-mode: forwards;
+}
+
+.song {
+    visibility: hidden;
+	font-size: 25px;
+	width: 700px;
+	animation-fill-mode: forwards;
+}
+
+.encores {
+	margin-top: 100px;
+	margin-bottom: 20px;
+    visibility: hidden;
+	font-size: 50px;
+	font-style: oblique;
+	width: 600px;
+	animation-fill-mode: forwards;
+}
+
+.biography {
+	margin-top: 100px;
+    visibility: hidden;
+	font-size: 50px;
+	width: 600px;
+	animation-fill-mode: forwards;
+}
+
+.kissin {
+	font-weight: bolder;
+	margin-top: 50px;
+	margin-bottom: 50px;
+    visibility: hidden;
+	font-size: 100px;
+	font-style: oblique;
+	width: 800px;
+	animation-fill-mode: forwards;
+}
+
+.introduction {
+	margin-bottom: 20px;
+    visibility: hidden;
+	font-size: 30px;
+	width: 600px;
+	animation-fill-mode: forwards;
+}
+
+.seventh-paragraph {
+	margin-bottom: 100px;
+}

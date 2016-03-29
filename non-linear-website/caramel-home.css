@@ -1,0 +1,55 @@
+.canvas {
+  position: relative;
+  left: 50%;
+  margin-left: -350px;
+  margin-top: 30px;
+  width: 700px;
+  background: white;
+  text-align: center;
+  font-family: "Avenir";
+}
+
+.title {
+  color: #663300;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.sub-title {
+  font-weight: bold;
+  font-size: 30px;
+  color: #663300;
+}
+
+.caramel {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-weight: bold;
+  font-size: 100px;
+  animation-name: blink;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink{
+  0%   {color: #663300;}
+  25%  {color: #b35900;}
+  50%  {color: #d2a679;}
+  100% {color: #ffe6cc;}
+}
+
+.button {
+  background: #ff3399;
+  border-radius: 10px;
+  color: white;
+  font-size: 30px;
+  padding: 15px 20px;
+  margin-top: 50px;
+  margin-left: 40px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #ff80bf;
+}

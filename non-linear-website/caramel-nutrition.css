@@ -1,0 +1,136 @@
+.canvas {
+  position: relative;
+  left: 50%;
+  margin-left: -350px;
+  width: 700px;
+  background: white;
+  text-align: center;
+  font-family: "Avenir";
+}
+
+.cal {
+  font-size: 50px;
+  animation-name: blink;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+}
+
+p {
+  position: relative;
+  display: inline;
+  font-size: 50px;
+  z-index: 2;
+  opacity: 0;
+}
+
+p:hover {
+  color: #663300;
+  opacity: 1;
+}
+
+.fat-calories .fat-fact {
+  visibility: hidden;
+  background-color: white;
+  border: 2px solid;
+  border-radius: 5px;
+  position: absolute;
+  width: 150px;
+  padding: 10px;
+}
+
+.fat-calories:hover .fat-fact {
+  font-size: 20px;
+  left: -200px;
+  position: absolute;
+  color: #663300;
+  visibility: visible;
+}
+
+.total-fat .total-fat-fact {
+  visibility: hidden;
+  background-color: white;
+  border: 2px solid;
+  border-radius: 5px;
+  position: absolute;
+  width: 150px;
+  padding: 10px;
+}
+
+.total-fat:hover .total-fat-fact {
+  font-size: 20px;
+  left: 220px;
+  top: 0;
+  position: absolute;
+  color: #663300;
+  visibility: visible;
+}
+
+.cholesterol .cholesterol-fact {
+  visibility: hidden;
+  background-color: white;
+  border: 2px solid;
+  border-radius: 5px;
+  position: absolute;
+  width: 150px;
+  padding: 10px;
+}
+
+.cholesterol:hover .cholesterol-fact {
+  font-size: 20px;
+  top: -20px;
+  left: 450px;
+  color: #663300;
+  visibility: visible;
+}
+
+.sugar .sugar-fact {
+  visibility: hidden;
+  background-color: white;
+  border: 2px solid;
+  border-radius: 5px;
+  position: absolute;
+  width: 150px;
+  padding: 10px;
+}
+
+.sugar:hover .sugar-fact {
+  font-size: 20px;
+  left: 190px;
+  top: 80px;
+  color: #663300;
+  visibility: visible;
+}
+
+.number {
+  font-weight: bold;
+  position: absolute;
+  font-size: 400px;
+  color: #663300;
+  z-index: 1;
+  animation-name: blink;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink{
+  0%   {color: #663300;}
+  25%  {color: #b35900;}
+  50%  {color: #d2a679;}
+  100% {color: #ffe6cc;}
+}
+
+.button {
+  display: inline-block;
+  margin: 130px;
+  background: #ff3399;
+  border-radius: 10px;
+  color: white;
+  font-size: 30px;
+  padding: 15px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #ff80bf;
+}

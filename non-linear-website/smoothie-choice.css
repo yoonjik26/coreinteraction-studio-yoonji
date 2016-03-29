@@ -1,0 +1,58 @@
+.canvas {
+  position: relative;
+  left: 50%;
+  margin-left: -350px;
+  margin-top: 30px;
+  width: 700px;
+  background: white;
+  text-align: center;
+  font-family: "Avenir";
+}
+
+.title {
+  color: #ff3399;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.strawberry {
+  font-size: 100px;
+  font-weight: bold;
+  color: #ff4d4d;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.strawberry:hover {
+  color: #ff9999;
+}
+
+.tropical {
+  display: block;
+  font-size: 100px;
+  font-weight: bold;
+  color: #ffcc00;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tropical:hover {
+  color: #ffe066;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 50px;
+  background: #ff3399;
+  border-radius: 10px;
+  color: white;
+  font-size: 30px;
+  padding: 15px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #ff80bf;
+}

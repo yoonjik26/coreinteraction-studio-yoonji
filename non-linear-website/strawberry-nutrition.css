@@ -1,0 +1,116 @@
+.canvas {
+  position: relative;
+  left: 50%;
+  margin-left: -350px;
+  width: 700px;
+  background: white;
+  text-align: center;
+  font-family: "Avenir";
+}
+
+.cal {
+  font-size: 50px;
+  animation-name: blink;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+}
+
+p {
+  position: relative;
+  display: inline;
+  font-size: 50px;
+  z-index: 2;
+  opacity: 0;
+}
+
+p:hover {
+  color: #ff4d4d;
+  opacity: 1;
+}
+
+.fat-calories .fat-fact {
+  visibility: hidden;
+  background-color: white;
+  border: 2px solid;
+  border-radius: 5px;
+  position: absolute;
+  width: 150px;
+  padding: 10px;
+}
+
+.fat-calories:hover .fat-fact {
+  font-size: 20px;
+  left: -200px;
+  position: absolute;
+  color: #ff4d4d;
+  visibility: visible;
+}
+
+.sodium .sodium-fact {
+  visibility: hidden;
+  background-color: white;
+  border: 2px solid;
+  border-radius: 5px;
+  position: absolute;
+  width: 150px;
+  padding: 10px;
+}
+
+.sodium:hover .sodium-fact {
+  font-size: 20px;
+  left: -260px;
+  color: #ff4d4d;
+  visibility: visible;
+}
+
+.sugar .sugar-fact {
+  visibility: hidden;
+  background-color: white;
+  border: 2px solid;
+  border-radius: 5px;
+  position: absolute;
+  width: 250px;
+  padding: 10px;
+}
+
+.sugar:hover .sugar-fact {
+  font-size: 20px;
+  left: 190px;
+  top: 80px;
+  color: #ff4d4d;
+  visibility: visible;
+}
+
+.number {
+  font-weight: bold;
+  position: absolute;
+  font-size: 400px;
+  color: #ff4d4d;
+  z-index: 1;
+  animation-name: blink;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink{
+  0%   {color: #ff4d4d;}
+  25%  {color: #ff6666;}
+  50%  {color: #ff9999;}
+  100% {color: #ffcccc;}
+}
+
+.button {
+  display: inline-block;
+  margin-top: 140px;
+  background: #ff3399;
+  border-radius: 10px;
+  color: white;
+  font-size: 30px;
+  padding: 15px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #ff80bf;
+}

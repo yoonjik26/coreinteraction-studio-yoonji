@@ -1,0 +1,135 @@
+.canvas {
+  position: relative;
+  left: 50%;
+  margin-left: -350px;
+  width: 700px;
+  background: white;
+  text-align: center;
+  font-family: "Avenir";
+}
+
+.cal {
+  font-size: 50px;
+  animation-name: blink;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+}
+
+p {
+  position: relative;
+  display: inline;
+  font-size: 50px;
+  z-index: 2;
+  opacity: 0;
+}
+
+p:hover {
+  color: #734d26;
+  opacity: 1;
+}
+
+.fat-calories .fat-fact {
+  visibility: hidden;
+  background-color: white;
+  border: 2px solid;
+  border-radius: 5px;
+  position: absolute;
+  width: 150px;
+  padding: 10px;
+}
+
+.fat-calories:hover .fat-fact {
+  font-size: 20px;
+  left: -200px;
+  position: absolute;
+  color: #734d26;
+  visibility: visible;
+}
+
+.total-fat .total-fat-fact {
+  visibility: hidden;
+  background-color: white;
+  border: 2px solid;
+  border-radius: 5px;
+  position: absolute;
+  width: 150px;
+  padding: 10px;
+}
+
+.total-fat:hover .total-fat-fact {
+  font-size: 20px;
+  left: 220px;
+  top: 0;
+  position: absolute;
+  color: #734d26;
+  visibility: visible;
+}
+
+.carb .carb-fact {
+  visibility: hidden;
+  background-color: white;
+  border: 2px solid;
+  border-radius: 5px;
+  position: absolute;
+  width: 150px;
+  padding: 10px;
+}
+
+.carb:hover .carb-fact {
+  font-size: 20px;
+  left: -240px;
+  color: #734d26;
+  visibility: visible;
+}
+
+.sugar .sugar-fact {
+  visibility: hidden;
+  background-color: white;
+  border: 2px solid;
+  border-radius: 5px;
+  position: absolute;
+  width: 150px;
+  padding: 10px;
+}
+
+.sugar:hover .sugar-fact {
+  font-size: 20px;
+  left: 190px;
+  top: 80px;
+  color: #734d26;
+  visibility: visible;
+}
+
+.number {
+  font-weight: bold;
+  position: absolute;
+  font-size: 400px;
+  color: #734d26;
+  z-index: 1;
+  animation-name: blink;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink{
+  0%   {color: #734d26;}
+  25%  {color: #86592d;}
+  50%  {color: #cc9966;}
+  100% {color: #f2e5d9;}
+}
+
+.button {
+  display: inline-block;
+  margin-top: 120px;
+  background: #ff3399;
+  border-radius: 10px;
+  color: white;
+  font-size: 30px;
+  padding: 15px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #ff80bf;
+}

@@ -1,0 +1,201 @@
+html {
+	background-color: #D8B182;
+  font-family: "Georgia";
+}
+
+.performance {
+	margin-top: 50px;
+  width: 700px;
+  display:none;
+  font-family: "Georgia";
+	font-size: 50px;
+}
+
+.name {
+  margin: 0;
+  width: 800px;
+  display:none;
+  font-family: "Georgia";
+  font-size: 100px;
+  font-style: oblique;
+}
+
+p1 {
+  display:none;
+  font-family: "Georgia";
+	font-size: 30px;
+}
+
+p2 {
+  width: 330px;
+  display:none;
+  font-family: "Georgia";
+  font-size: 20px;
+  float: left;
+  text-align: left;
+}
+
+p3 {
+  width: 330px;
+  display:none;
+  font-family: "Georgia";
+  font-size: 20px;
+  float: right;
+  text-align: left;
+}
+
+.canvas {
+	position: relative;
+	left: 50%;
+	margin-left: -350px;
+  width: 700px;
+ 	text-align: center;
+}
+
+.carnegie {
+	font-family: "DIN alternate";
+	margin-top: 40px;
+	margin-bottom: 30px;
+	font-size: 30px;
+	text-align: left;
+	color: black;
+  margin-bottom: 30px;
+}
+
+span {
+  font-size: 20px;
+  font-family: "Georgia";
+  font-style: oblique;
+}
+
+.piano {
+	position: fixed;
+}
+
+.key {
+  top: 250px;
+  float: left;
+  margin: 1px;
+  position: relative;
+  border-color: 3px black;
+}
+
+.black {
+  width: 50px;
+  height: 220px;
+  background: black;
+  border-radius: 3px;
+  position: absolute;
+  left: 55px;
+  z-index: 2;
+}
+
+.white {
+  width: 80px;
+  height: 400px;
+  background: white;
+  border-radius: 3px;
+  border: 3px;
+  padding-bottom: 50px;
+  overflow: hidden;
+  box-shadow:0 1px 1px rgba(0, 0, 0, .5);
+  z-index: 1;
+}
+
+.white:hover {
+  box-shadow:-1px 0 15px rgba(0, 0, 0, .7)
+}
+
+.white:active {
+  box-shadow:-1px 0 15px rgba(0, 0, 0, .7)
+}
+
+.encores {
+  text-align: left;
+  margin-bottom: 30px;
+  font-style: oblique;
+  font-size: 30px;
+  width: 500px;
+  display:none;
+}
+
+.program {
+  text-align: left;
+  margin-bottom: 30px;
+  font-style: oblique;
+  font-size: 30px;
+  width: 500px;
+  display:none;
+}
+
+.song {
+  text-align: left;
+  font-size: 20px;
+  width: 700px;
+  display:none;
+}
+
+.encore-song {
+  text-align: left;
+  font-size: 20px;
+  width: 500px;
+  display:none;
+}
+
+.chopin {
+  text-align: left;
+  margin-bottom: 30px;
+  font-style: oblique;
+  font-size: 30px;
+  width: 500px;
+  display:none;
+}
+
+.chopin-introduction {
+  text-align: left;
+  font-size: 20px;
+  width: 500px;
+  display:none;
+}
+
+.beethoven {
+  text-align: left;
+  margin-bottom: 30px;
+  font-style: oblique;
+  font-size: 30px;
+  width: 600px;
+  display:none;
+}
+
+.beethoven-introduction {
+  text-align: left;
+  font-size: 20px;
+  width: 500px;
+  display:none;
+}
+
+.gallery {
+  text-align: left;
+  margin-bottom: 30px;
+  font-style: oblique;
+  font-size: 30px;
+  width: 600px;
+  display:none;
+}
+
+.image {
+  text-align: left;
+  display: none;
+}
+
+.one {
+  z-index: 100;
+}
+
+.two {
+  z-index: 99;
+}
+
+.three {
+  z-index: 98;
+}
