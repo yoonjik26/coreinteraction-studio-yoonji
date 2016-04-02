@@ -22,7 +22,196 @@
 	height: 300px;
 	width: 100%;
 	background-color: white 0;
+}
 
+.musician-one {
+	text-decoration: underline;
+}
+
+.musician-one:hover {
+	text-decoration: underline;
+	color: grey;
+}
+
+.musician-two {
+	text-decoration: underline;
+}
+
+.musician-two:hover {
+	text-decoration: underline;
+	color: grey;
+}
+
+.musician-three {
+	text-decoration: underline;
+}
+
+.musician-three:hover {
+	text-decoration: underline;
+	color: grey;
+}
+
+.debut-recital {
+	text-decoration: underline;
+}
+
+.debut-recital:hover {
+	text-decoration: underline;
+	color: grey;
+}
+
+.moscow {
+	text-decoration: underline;
+}
+
+.moscow:hover {
+	text-decoration: underline;
+	color: grey;
+}
+
+.chopin {
+	margin-top: -400px;
+	margin-bottom: 20px;
+	margin-left: 640px;
+	display: none;
+	opacity: 0.8;
+	animation: comeUp 1s;
+	animation-timing-function: ease-in-out;	
+	visibility: visible !important;
+}
+
+.liszt {
+	margin-top: -400px;
+	margin-bottom: 20px;
+	margin-left: 640px;
+	display: none;
+	opacity: 0.8;
+	animation: comeUp 1s;
+	animation-timing-function: ease-in-out;	
+	visibility: visible !important;
+}
+
+.beethoven {
+	margin-top: -400px;
+	margin-bottom: 20px;
+	margin-left: 640px;
+	display: none;
+	opacity: 0.8;
+	animation: comeUp 1s;
+	animation-timing-function: ease-in-out;	
+	visibility: visible !important;
+}
+
+.mazurka-link {
+	color: black;
+}
+
+.mazurka-link:hover {
+	color: grey;
+}
+
+#mazurka {
+	margin-top: -300px;
+	margin-left: 600px;
+	display: none;
+	opacity: 0.8;
+	animation: comeUp 1s;
+	animation-timing-function: ease-in-out;	
+	visibility: visible !important;
+}
+
+.debut-link {
+	color: black;
+}
+
+.debut-link:hover {
+	color: grey;
+}
+
+.live-link {
+	color: black;
+}
+
+.live-link:hover {
+	color: grey;
+}
+
+.ninth-song-play {
+	color: black;
+}
+
+.ninth-song-play:hover {
+	color: grey;
+}
+
+.eighth-song-play {
+	color: black;
+}
+
+.eighth-song-play:hover {
+	color: grey;
+}
+
+.tenth-song-play {
+	color: black;
+}
+
+.tenth-song-play:hover {
+	color: grey;
+}
+
+.eleventh-song-play {
+	color: black;
+}
+
+.eleventh-song-play:hover {
+	color: grey;
+}
+
+.moscow {
+	color: black;
+}
+
+.moscow:hover {
+	color: grey;
+}
+
+.website {
+	color: black;
+}
+
+.website:hover {
+	color: grey;
+}
+
+.grammy-awards {
+	color: black;
+}
+
+.grammy-awards:hover {
+	color: grey;
+}
+
+.carnegie-debut {
+	margin-top: -400px;
+	margin-bottom: 20px;
+	margin-left: 620px;
+	display: none;
+	opacity: 0.8;
+	animation: comeUp 1s;
+	animation-timing-function: ease-in-out;	
+	visibility: visible !important;
+}
+
+.moscow-harmonic {
+	margin-top: -900px;
+	margin-left: -70px;
+	margin-bottom: 20px;
+	display: none;
+	opacity: 0.8;
+	animation: comeUp 1s;
+	animation-timing-function: ease-in-out;	
+	visibility: visible !important;
 }
 
 .class-one {
@@ -91,6 +280,15 @@
 	}
 }
 
+@keyframes comeUp {
+	from {
+	opacity: 0;
+	}		
+	to {
+  	opacity: 0.8;
+	}
+}
+
 .carnegie {
 	margin-top: 150px;
 	visibility: hidden;
@@ -132,6 +330,7 @@
 	position: absolute;
     visibility: hidden;
     opacity: 0.4;
+    z-index: -100;
 	animation-fill-mode: forwards;
 }
 
@@ -139,6 +338,7 @@
 	position: absolute;
     visibility: hidden;
     opacity: 0.4;
+    z-index: -100;
 	animation-fill-mode: forwards;
 }
 
@@ -146,6 +346,7 @@
 	position: absolute;
     visibility: hidden;
     margin-left: -100px;
+    z-index: -100;
 	animation-fill-mode: forwards;
 }
 
@@ -153,6 +354,7 @@
 	position: absolute;
     visibility: hidden;
     margin-left: 400px;
+    z-index: -100;
 	animation-fill-mode: forwards;
 }
 
@@ -242,6 +444,14 @@
 	animation-fill-mode: forwards;
 }
 
+.carnegiehall {
+	position: absolute;
+    visibility: hidden;
+    margin-left: 450px;
+    z-index: -100;
+	animation-fill-mode: forwards;
+}
+
 .kissin {
 	font-weight: bolder;
 	margin-top: 50px;
@@ -250,6 +460,15 @@
 	font-size: 100px;
 	font-style: oblique;
 	width: 800px;
+	animation-fill-mode: forwards;
+}
+
+.grammy {
+	position: absolute;
+    visibility: hidden;
+    opacity: 0.4;
+    margin-top: -80px;
+    margin-left: -150px;
 	animation-fill-mode: forwards;
 }
 
@@ -263,4 +482,12 @@
 
 .seventh-paragraph {
 	margin-bottom: 100px;
+}
+
+.more-information {
+	margin-bottom: 20px;
+    visibility: hidden;
+	font-size: 20px;
+	width: 600px;
+	animation-fill-mode: forwards;
 }
