@@ -209,8 +209,27 @@ listen(elms.down, 'click', function (e) {
 
 lastFrame = Date.now();
 
-(function scroller() {
-    requestAnimationFrame(scroller);
+var scrollFrame;
+var restartTimer;
+
+window.addEventListener('mousewheel', function () {
+    // cancel our animationFrame to stop automatic scrolling
+    cancelAnimationFrame(scrollFrame);
+
+    y = window.scrollY;
+
+    // automatic scrolling restarts
+    lastFrame = Date.now(); 
+    // reset the timer.
+    if (restartTimer) clearTimeout(restartTimer);
+    restartTimer = setTimeout(function () {
+        // actually restart the animation
+        scrollFrame = requestAnimationFrame(scroller);
+    }, 100)
+});
+
+function scroller() {
+    scrollFrame = requestAnimationFrame(scroller);
     
     var now = Date.now();
     var dt = (now - lastFrame) / 1000;
@@ -522,8 +541,9 @@ lastFrame = Date.now();
 
     window.scrollTo(x, y);
 
-    }());
+    };
 
+    scroller();
 }());
 
 </script>
