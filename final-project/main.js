@@ -52,7 +52,7 @@ $('.option-10').click(function () {
   sendMessage(10); });
 $('.option-11').click(function() {
   $(".twelve").toggle();
-   $('.images div').hide();
+   $('.images').hide();
   sendMessage(11); });
 
 function sendMessage(value) {

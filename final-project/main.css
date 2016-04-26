@@ -1,6 +1,6 @@
 .canvas {
   position: relative;
-  width: 600px;
+  width: 700px;
   margin-top: 40px;
 }
 .name-input {
@@ -37,15 +37,14 @@
   flex-flow: row;
   flex-wrap: wrap;
   align-items: center;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  width: 250px;
+  width: 700px;
+  height: 1136px;
 }
 
 .color-input-option {
-  width: 60px;
-  height: 60px;
-  margin: 5px;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
   border-radius: 50%;
 }
 
@@ -150,6 +149,12 @@
     display: flex;
   }
   .color-input {
+    display: none;
+  }
+  .name-input {
+    display: none;
+  }
+  .submit-button {
     display: none;
   }
 }
