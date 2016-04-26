@@ -1,6 +1,7 @@
 .canvas {
   position: relative;
   width: 700px;
+  height: 860px;
   margin-top: 40px;
 }
 .name-input {
@@ -38,7 +39,7 @@
   flex-wrap: wrap;
   align-items: center;
   width: 700px;
-  height: 1136px;
+  height: 1000px;
 }
 
 .color-input-option {
