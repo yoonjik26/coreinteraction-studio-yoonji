@@ -1,0 +1,125 @@
+.canvas {
+  position: relative;
+  width: 800px;
+  left: 50%;
+  margin-left: -300px;
+  margin-top: 40px;
+}
+
+.color-input {
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: 600px;
+}
+
+.color-input-option {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.option-0 { background-color: #4fb4b0; }
+.option-1 { background-color: #cabd2c; }
+.option-2 { background-color: #fab350; }
+.option-3 { background-color: #fcd5a1; }
+.option-4 { background-color: #ad4658; }
+.option-5 { background-color: #cc7e48; }
+.option-6 { background-color: #f3b1d0; }
+.option-7 { background-color: #e870ab; }
+.option-8 { background-color: #bf1a88; }
+.option-9 { background-color: #9f4f9e; }
+.option-10 { background-color: #1e1a0f; }
+.option-11 { background-color: grey; }
+
+.one {
+  display: none;
+  position: absolute;
+  z-index: -12;
+}
+
+.two {
+  display: none;
+  position: absolute;
+  z-index: -11;
+}
+
+.three {
+  display: none;
+  position: absolute;
+  z-index: -10;
+}
+
+.four {
+  display: none;
+  position: absolute;
+  z-index: -9;
+}
+
+.five {
+  display: none;
+  position: absolute;
+  z-index: -8;
+}
+
+.six {
+  display: none;
+  position: absolute;
+  z-index: -7;
+}
+
+.seven {
+  display: none;
+  position: absolute;
+  z-index: -6;
+}
+
+.eight {
+  display: none;
+  position: absolute;
+  z-index: -5;
+}
+
+.nine {
+  display: none;
+  position: absolute;
+  z-index: -4;
+}
+
+.ten {
+  display: none;
+  position: absolute;
+  z-index: -3;
+}
+
+.eleven {
+  display: none;
+  position: absolute;
+  z-index: -2;
+}
+
+.message {
+  display: none;
+}
+
+.message.from-current-user {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .color-input {
+    display: flex;
+  }
+  .images {
+    opacity: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .images {
+    display: flex;
+  }
+  .color-input {
+    display: none;
+  }
+}
