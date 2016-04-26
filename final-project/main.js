@@ -3,6 +3,7 @@ var username;
 $('.submit-button').click(function () {
   username = $('.name-input').val();
   $('.name-form').hide();
+  $('.color-input').show();
 });
 
 $('.option-0').click(function () { 
