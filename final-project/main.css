@@ -138,6 +138,7 @@
 @media (max-width: 1200px) {
   .color-input {
     display: flex;
+    width: 100%;
   }
   .images {
     opacity: 0;
@@ -147,6 +148,7 @@
 @media (min-width: 1200px) {
   .images {
     display: flex;
+    width: 100%;
   }
   .color-input {
     display: none;
