@@ -22,17 +22,17 @@
 .hello {
   margin-right: auto;
   margin-top: 100px;
-  font-family: "vitreous";
+  font-family: 'Audiowide', cursive;
   font-weight: bolder;
-  font-size: 100px;
+  font-size: 80px;
   width: 300px;
 }
 
 .start {
   margin-top: 50px;
   margin-right: auto;
-  font-family: "vitreous";
-  font-size: 40px;
+  font-family: 'Audiowide', cursive;
+  font-size: 30px;
   width: 400px;
 }
 
