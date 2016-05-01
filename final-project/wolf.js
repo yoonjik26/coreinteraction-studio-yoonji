@@ -1,10 +1,9 @@
-var username;
+// var username;
 
-$('.submit-button').click(function () {
-  username = $('.name-input').val();
-  $('.name-form').hide();
+// $('.submit-button').mouseover(function () {
+//   username = $('.name-input').val();
+//   $('.name-form').hide();
   $( ".color-input" ).addClass( "myClass");
-});
 
 $('.option-0').click(function () { 
   $(".one").toggle();
@@ -42,18 +41,6 @@ $('.option-8').click(function () {
   $(".nine").toggle();
   $('.images div').show();
   sendMessage(8); });
-$('.option-9').click(function () { 
-  $(".ten").toggle();
-  $('.images div').show();
-  sendMessage(9); });
-$('.option-10').click(function () {
-  $(".eleven").toggle();
-  $('.images div').show();
-  sendMessage(10); });
-$('.option-11').click(function() {
-  $(".twelve").toggle();
-   $('.images div').hide();
-  sendMessage(11); });
 
 function sendMessage(value) {
   Chat.sendMessage({
@@ -73,9 +60,6 @@ var layers = {
   6: '.seven',
   7: '.eight',
   8: '.nine',
-  9: '.ten',
-  10: '.eleven',
-  11: '.twelve',
 };
 
 Chat.onMessage(function (messageData) {

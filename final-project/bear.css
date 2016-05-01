@@ -68,18 +68,15 @@
   border-radius: 50%;
 }
 
-.option-0 { background-color: #4fb4b0; }
-.option-1 { background-color: #cabd2c; }
-.option-2 { background-color: #fab350; }
-.option-3 { background-color: #fcd5a1; }
-.option-4 { background-color: #ad4658; }
-.option-5 { background-color: #cc7e48; }
-.option-6 { background-color: #f3b1d0; }
-.option-7 { background-color: #e870ab; }
-.option-8 { background-color: #bf1a88; }
-.option-9 { background-color: #9f4f9e; }
-.option-10 { background-color: #1e1a0f; }
-.option-11 { background-color: grey; }
+.option-0 { background-color: #c50012; }
+.option-1 { background-color: #dc7000; }
+.option-2 { background-color: #f5d800; }
+.option-3 { background-color: #049462; }
+.option-4 { background-color: #098451; }
+.option-5 { background-color: #009de1; }
+.option-6 { background-color: #001d85; }
+.option-7 { background-color: #61106d; }
+.option-8 { background-color: #2d0551; }
 
 .one {
   display: none;
@@ -133,18 +130,6 @@
   display: none;
   position: absolute;
   z-index: -4;
-}
-
-.ten {
-  display: none;
-  position: absolute;
-  z-index: -3;
-}
-
-.eleven {
-  display: none;
-  position: absolute;
-  z-index: -2;
 }
 
 .message {
