@@ -65,6 +65,16 @@ var layers = {
   8: '.nine',
 };
 
+if (layers == 4){
+  $('.dear').hide(); 
+  $('.bear').show();
+}
+
+if (layers ==8){
+  $('.dear').hide(); 
+  $('.bear').show();
+}
+
 Chat.onMessage(function (messageData) {
   var selector = layers[messageData.value];
   $(selector).toggle();
