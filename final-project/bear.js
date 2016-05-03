@@ -1,7 +1,3 @@
-window.setTime(function() {
-window.location.href =“”;
-}, 5000});
-
 var username;
 
 $('.submit-button').click(function () {
