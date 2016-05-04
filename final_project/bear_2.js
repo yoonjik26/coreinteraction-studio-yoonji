@@ -1,8 +1,4 @@
-window.setTime(function() {
-window.location.href =“”;
-}, 5000});
-
-// var username;
+var username = "hello";
 
 // $('.submit-button').click(function () {
 //   username = $('.name-input').val();
@@ -65,6 +61,14 @@ var layers = {
   7: '.eight',
   8: '.nine',
 };
+
+Chat.onMessage(function (data) {
+  if (data.value == 4) {
+    window.location.replace('deer.html');
+  } else if (data.value == 8) {
+    window.location.replace('wolf.html');
+  }
+});
 
 Chat.onMessage(function (messageData) {
   var selector = layers[messageData.value];

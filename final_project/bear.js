@@ -1,13 +1,10 @@
-window.setTime(function() {
-window.location.href =“”;
-}, 5000});
+var username = "hello";
 
-// var username;
-
-// $('.submit-button').mouseover(function () {
-//   username = $('.name-input').val();
-//   $('.name-form').hide();
+$('.submit-button').click(function () {
+  username = $('.name-input').val();
+  $('.name-form').hide();
   $( ".color-input" ).addClass( "myClass");
+});
 
 $('.option-0').click(function () { 
   $(".one").toggle();
@@ -65,6 +62,14 @@ var layers = {
   7: '.eight',
   8: '.nine',
 };
+
+Chat.onMessage(function (data) {
+  if (data.value == 4) {
+    window.location.replace('deer.html');
+  } else if (data.value == 8) {
+    window.location.replace('wolf.html');
+  }
+});
 
 Chat.onMessage(function (messageData) {
   var selector = layers[messageData.value];
