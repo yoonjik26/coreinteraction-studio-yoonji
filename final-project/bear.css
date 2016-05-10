@@ -19,29 +19,72 @@
   cursor: pointer;
 }
 
+@font-face{
+    font-family: 'Outage';
+    src: url('Outage.ttf');
+  }
+
 .hello {
   margin-right: auto;
-  margin-top: 50px;
-  font-family: 'Audiowide', cursive;
+  margin-left: -10px;
+  font-family: 'Outage';
   font-weight: bolder;
-  font-size: 60px;
-  width: 400px;
+  font-size: 150px;
+  width: 500px;
+  animation:rainbow 1s linear infinite;
+  -moz-animation:rainbow 1s linear infinite; 
+  -webkit-animation:rainbow 1s linear infinite; 
+  -o-animation:rainbow 1s linear infinite; 
+}
+
+@keyframes rainbow {
+  0%   {color:#c50012;}
+  20%  {color:#dc7000;}
+  40%  {color:#f5d800;}
+  60% {color:#049462;}
+  80% {color:#009de1;}
+  100% {color:#61106d;}
+}
+
+@-webkit-keyframes rainbow {
+  0%   {color:#c50012;}
+  20%  {color:#dc7000;}
+  40%  {color:#f5d800;}
+  60% {color:#049462;}
+  80% {color:#009de1;}
+  100% {color:#61106d;}
+}
+
+.intro {
+  margin-top: 30px;
+  margin-right: auto;
+  font-family: 'Arial';
+  font-size: 18px;
+  width: 420px;
+}
+
+.who {
+  font-family: 'Arial';
+  font-size: 18px;
+  font-weight: bolder;
 }
 
 .start {
   margin-top: 30px;
+  margin-bottom: 20px;
   margin-right: auto;
-  font-family: 'Audiowide', cursive;
+  font-family: 'Outage';
   font-size: 20px;
-  width: 400px;
+  width: 500px;
 }
 
 .submit-button {
-  background-color: black;
+  background-color: #098451;
+  font-family: 'Outage';
   border: none;
   border-radius: 10px;
   color: white;
-  padding: 15px 32px;
+  padding: 15px 30px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
