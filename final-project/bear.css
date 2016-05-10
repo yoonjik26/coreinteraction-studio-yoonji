@@ -95,6 +95,10 @@
   cursor: pointer;
 }
 
+.submit-button:hover {
+  opacity: 0.7;
+}
+
 .color-input {
   display: flex;
   flex-flow: row;
@@ -111,10 +115,14 @@
   border-radius: 50%;
 }
 
+.color-input-option:hover {
+  opacity: 0.7;
+}
+
 .option-0 { background-color: #c50012; }
 .option-1 { background-color: #dc7000; }
 .option-2 { background-color: #f5d800; }
-.option-3 { background-color: #049462; }
+.option-3 { background-color: #85b033; }
 .option-4 { background-color: #098451; }
 .option-5 { background-color: #009de1; }
 .option-6 { background-color: #001d85; }
