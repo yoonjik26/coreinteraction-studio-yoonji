@@ -65,7 +65,7 @@ var layers = {
 Chat.onMessage(function (data) {
   if (data.value == 4) {
     window.location.replace('deer.html');
-  } else if (data.value == 8) {
+  } else if (data.value == 7) {
     window.location.replace('wolf.html');
   }
 });
