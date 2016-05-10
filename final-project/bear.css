@@ -217,6 +217,12 @@
   .hello {
     display: none;
   }
+  .intro {
+    display: none;
+  }
+  .who {
+    display: none;
+  }
   .start {
     display: none;
   }
